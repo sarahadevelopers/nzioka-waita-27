@@ -65,7 +65,7 @@ const observer = new IntersectionObserver((entries) => {
                         statNumber.textContent = target;
                     }
                 };
-
+ 
                 updateCount();
             }
             observer.unobserve(statNumber);
